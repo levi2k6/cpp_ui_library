@@ -1,0 +1,42 @@
+# CMake build output
+build/
+build-*/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+_deps/
+
+# CMake-exported compile database (generated)
+compile_commands.json
+
+# Ninja
+.ninja_deps
+.ninja_log
+build.ninja
+rules.ninja
+
+# Compiled objects / binaries
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.so.*
+*.dylib
+*.dll
+*.exe
+*.out
+
+# Editor / language-server caches
+.cache/
+.vscode/
+.idea/
+.ccls-cache/
+.clangd/
+
+# OS files
+.DS_Store
+Thumbs.db
